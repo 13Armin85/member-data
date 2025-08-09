@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  .label {
+    font-size: 0.9rem;
+  }
+  .input {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  .error {
+    color: #d9534f;
+    font-size: 0.85rem;
+  }
+}

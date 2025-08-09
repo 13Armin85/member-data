@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+
+  .card {
+    background: #fff;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+
+    .actions {
+      margin-top: 8px;
+      .logout {
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        background: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  .avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+
+  > div {
+    background: #f8fafc;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .location {
+    grid-column: 1 / -1; // full width
+  }
+}
