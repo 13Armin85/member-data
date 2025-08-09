@@ -3,13 +3,19 @@
   --text: #111827;
 }
 
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
 }
 
 body {
-  font-family: Inter, system-ui, -apple-system, 'Helvetica Neue', Arial;
+  font-family: Inter, system-ui, -apple-system, "Helvetica Neue", Arial;
   background: var(--bg);
   color: var(--text);
   margin: 0;
+  text-align: center;
+}
+.Input_root__RuJFt .Input_label__vH3py {
+  text-align: right;
 }
